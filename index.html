@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nakeya Canakia | Portofolio Software Developer</title>
+  <meta name="description" content="Portofolio Nakeya Canakia, mahasiswa Teknologi Informasi yang fokus pada HTML semantik, CSS modern, dan aksesibilitas.">
+  <link rel="icon" href="assets/icons/cookies.png" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#konten-utama">Lewati ke konten utama</a>
+
+  <header>
+    <a class="logo" href="#beranda" aria-label="portofolio, kembali ke beranda">portofolio</a>
+    <nav aria-label="Navigasi Utama">
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#tentang">Tentang Saya</a></li>
+        <li><a href="#proyek">Proyek</a></li>
+        <li><a href="#keahlian">Keahlian</a></li>
+        <li><a href="#sertifikasi">Sertifikasi</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="konten-utama">
+
+    <!-- 1. BERANDA -->
+    <section id="beranda" class="hero" aria-labelledby="judul-beranda">
+      <p class="hero-nama">Nakeya Canakia</p>
+      <h1 id="judul-beranda">Software Developer</h1>
+      <p class="hero-deskripsi">Mahasiswa Teknologi Informasi yang fokus pada HTML semantik, CSS modern, dan aksesibilitas.</p>
+      <p class="aksi">
+        <a class="tombol" href="#proyek">Lihat proyek</a>
+        <a class="tombol tombol-outline" href="#kontak">Hubungi saya</a>
+      </p>
+    </section>
+
+    <!-- 2. TENTANG SAYA -->
+    <section id="tentang" class="tentang" aria-labelledby="judul-tentang">
+      <h2 id="judul-tentang">About Me</h2>
+
+      <figure class="foto">
+        <img src="assets/images/foto-nakeya.jpg" width="662" height="882"
+             alt="Foto profil Nakeya Canakia mengenakan seragam sekolah dengan dasi merah di depan latar biru">
+      </figure>
+
+      <article class="bio">
+        <h3 class="sr-only">Biografi</h3>
+        <p><strong>Halo, saya Nakeya Canakia!</strong></p>
+        <p>Saya merupakan mahasiswa Teknologi Informasi yang memiliki ketertarikan dalam bidang pengembangan perangkat lunak, khususnya Web Development dan Software Engineering.</p>
+        <p>Saya senang mempelajari teknologi baru, mengembangkan ide menjadi solusi digital, serta meningkatkan kemampuan dalam bidang pemrograman. Melalui berbagai proyek, saya terus berusaha mengembangkan keterampilan dan pengalaman untuk menjadi seorang Software Developer yang kreatif dan inovatif.</p>
+      </article>
+
+      <aside class="profil" aria-labelledby="judul-profil">
+        <h3 id="judul-profil">Profil Singkat</h3>
+        <ul>
+          <li>Pendidikan: S1 Teknologi Informasi</li>
+          <li>Minat: Web Development &amp; Software Engineering</li>
+          <li>Domisili: Indonesia</li>
+        </ul>
+      </aside>
+    </section>
+
+    <!-- 3. PROYEK -->
+    <section id="proyek" class="proyek" aria-labelledby="judul-proyek">
+      <h2 id="judul-proyek">Proyek Unggulan</h2>
+      <ul class="grid-kartu grid-proyek">
+        <li>
+          <article class="kartu">
+            <figure>
+              <img src="assets/images/komputer4.jpg" width="640" height="480" loading="lazy"
+                   alt="Tangkapan layar proyek Website Portofolio Pribadi">
+            </figure>
+            <h3>Website Portofolio Pribadi</h3>
+            <p class="tag-teknologi">HTML, CSS, JavaScript</p>
+          </article>
+        </li>
+        <li>
+          <article class="kartu">
+            <figure>
+              <img src="assets/images/komputer3.jpg" width="640" height="480" loading="lazy"
+                   alt="Tangkapan layar proyek Aplikasi Daftar Tugas">
+            </figure>
+            <h3>Aplikasi Daftar Tugas</h3>
+            <p class="tag-teknologi">HTML, CSS, JavaScript</p>
+          </article>
+        </li>
+        <li>
+          <article class="kartu">
+            <figure>
+              <img src="assets/images/komputer2.jpg" width="640" height="480" loading="lazy"
+                   alt="Tangkapan layar proyek Landing Page Responsif">
+            </figure>
+            <h3>Landing Page Responsif</h3>
+            <p class="tag-teknologi">HTML, CSS</p>
+          </article>
+        </li>
+        <li>
+          <article class="kartu">
+            <figure>
+              <img src="assets/images/komputer5.jpg" width="640" height="480" loading="lazy"
+                   alt="Tangkapan layar proyek Sistem Informasi Sederhana">
+            </figure>
+            <h3>Sistem Informasi Sederhana</h3>
+            <p class="tag-teknologi">PHP, MySQL</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 4. KEAHLIAN -->
+    <section id="keahlian" class="keahlian" aria-labelledby="judul-keahlian">
+      <h2 id="judul-keahlian">Keahlian &amp; Tech Stack</h2>
+
+      <h3>Keahlian Saya</h3>
+      <ul class="grid-keahlian">
+        <li><h4>Pemrograman</h4><p>Menulis dan memahami kode program</p></li>
+        <li><h4>Pengembangan Web</h4><p>Membangun halaman website</p></li>
+        <li><h4>Pengelolaan Basis Data</h4><p>Mengelola dan mengolah data</p></li>
+        <li><h4>Pemecahan Masalah</h4><p>Mencari solusi secara logis</p></li>
+        <li><h4>Perancangan Antarmuka</h4><p>Membuat tampilan yang mudah digunakan</p></li>
+        <li><h4>Kerja Sama Tim</h4><p>Berkolaborasi dalam proyek</p></li>
+      </ul>
+
+      <h3>Tech Stack</h3>
+      <ul class="tech-stack">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+        <li>MySQL</li>
+        <li>Git</li>
+        <li>GitHub</li>
+        <li>Visual Studio Code</li>
+      </ul>
+    </section>
+
+    <!-- 5. SERTIFIKASI -->
+    <section id="sertifikasi" class="sertifikasi" aria-labelledby="judul-sertifikasi">
+      <h2 id="judul-sertifikasi">Sertifikasi</h2>
+      <ul class="grid-kartu">
+        <li>
+          <article class="kartu kartu-sertifikat">
+            <img src="assets/images/piala.jpg" width="200" height="200" loading="lazy"
+                 alt="Lencana sertifikat Pengembangan Front-End dari Meta">
+            <h3>Pengembangan Front-End</h3>
+            <p>Meta &middot; 2025</p>
+            <a href="https://www.coursera.org/" target="_blank" rel="noopener noreferrer"
+               aria-label="Lihat kredensial Pengembangan Front-End dari Meta (tab baru)">Lihat kredensial <span aria-hidden="true">&rarr;</span></a>
+          </article>
+        </li>
+        <li>
+          <article class="kartu kartu-sertifikat">
+            <img src="assets/images/barbie.jpg" width="200" height="200" loading="lazy"
+                 alt="Lencana sertifikat Pengembangan Perangkat Lunak dari IBM">
+            <h3>Pengembangan Perangkat Lunak</h3>
+            <p>IBM &middot; 2025</p>
+            <a href="https://www.coursera.org/" target="_blank" rel="noopener noreferrer"
+               aria-label="Lihat kredensial Pengembangan Perangkat Lunak dari IBM (tab baru)">Lihat kredensial <span aria-hidden="true">&rarr;</span></a>
+          </article>
+        </li>
+        <li>
+          <article class="kartu kartu-sertifikat">
+            <img src="assets/images/centang.jpg" width="200" height="200" loading="lazy"
+                 alt="Lencana sertifikat Manajemen Basis Data dari Oracle Academy">
+            <h3>Manajemen Basis Data</h3>
+            <p>Oracle Academy &middot; 2026</p>
+            <a href="https://academy.oracle.com/" target="_blank" rel="noopener noreferrer"
+               aria-label="Lihat kredensial Manajemen Basis Data dari Oracle Academy (tab baru)">Lihat kredensial <span aria-hidden="true">&rarr;</span></a>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 6. KONTAK -->
+    <section id="kontak" class="kontak" aria-labelledby="judul-kontak">
+      <h2 id="judul-kontak">Kontak</h2>
+
+      <article class="info-kontak">
+        <h3 class="sr-only">Informasi Kontak</h3>
+        <p><strong>Tertarik bekerja sama atau ingin bertanya lebih lanjut? Hubungi saya!</strong></p>
+        <ul>
+          <li><strong>Email</strong> <a href="mailto:emailkamu@gmail.com">nakeyacanakia@gmail.com</a></li>
+          <li><strong>GitHub</strong> <a href="https://github.com/nakeyay-github" target="_blank" rel="noopener noreferrer">github.com/username-github<span class="sr-only"> (tab baru)</span></a></li>
+          <li><strong>LinkedIn</strong> <a href="https://www.linkedin.com/in/nakeyay-linkedin" target="_blank" rel="noopener noreferrer">linkedin.com/in/username-linkedin<span class="sr-only"> (tab baru)</span></a></li>
+        </ul>
+      </article>
+
+      <form class="form-kontak" action="https://formspree.io/f/xdeanyjn" method="POST" aria-label="Formulir kontak">
+        <label for="nama">Nama kamu</label>
+        <input type="text" id="nama" name="nama" autocomplete="name" placeholder="Nama Kamu" required>
+
+        <label for="email">Email kamu</label>
+        <input type="email" id="email" name="email" autocomplete="email" placeholder="emailkamu@gmail.com" required>
+
+        <label for="pesan">Pesan</label>
+        <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan Anda" required></textarea>
+
+        <button type="submit" class="tombol">Kirim pesan</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Nakeya Canakia. Seluruh hak cipta dilindungi.</p>
+  </footer>
+</body>
+</html>
+
+<!-- GitHub Pages deployment refresh -->
