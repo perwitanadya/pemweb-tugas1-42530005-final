@@ -11,7 +11,7 @@ Tugas 1 Pemrograman Web: Rancang Bangun Responsive Landing Page Berbasis Dokumen
 
 ## Live Preview
 
-https://perwitanadya.github.io/pemweb-tugas1-42530005/
+ https://perwitanadya.github.io/pemweb-tugas1-42530005-final/
 
 ## Deskripsi
 
